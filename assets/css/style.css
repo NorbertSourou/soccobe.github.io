@@ -108,11 +108,16 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  /*padding: 12px 0;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 #header.header-scrolled {
-  padding: 12px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -131,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
+  /*height: 100px;*/
 }
 
 @media (max-width: 992px) {
@@ -409,7 +415,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(4, 12, 21, 0.5);
+  /*linuse*/
+  background-color: rgba(4, 12, 21, 0.2);
 }
 
 #hero .carousel-container {
